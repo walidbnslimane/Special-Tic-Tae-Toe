@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Special X&O</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="https://www.svgrepo.com/show/510273/tic-tac-toe.svg">
+</head>
+<body>
+    <div class="container">
+        <h1>Tic-Tac-Toe</h1>
+        <div id="mode-selection">
+            <button id="bot-mode">Play with Bot</button>
+            <button id="player-mode">2 Players</button>
+        </div>
+        <button id="alternate-mode-button" class="hidden">Play Another Mode</button>
+        <div id="game-board" class="hidden">
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+        </div>
+        <h2 id="winning-message" class="winning-message">
+            <span id="winning-message-text"></span>
+            <button id="restart-button">Restart</button>
+        </h2>
+        <div class="copyright-content">
+          <p>© Copyright 2024 | All Rights Reserved by <a href="https://walidbnslimane.github.io/Walidbenslimane.github.io/" target="_blank">Walid Ben Slimane </a></p>
+      </div>
+    </div>
+   
+    <script src="script.js"></script>
+</body>
+</html>
