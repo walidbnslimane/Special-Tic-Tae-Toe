@@ -40,7 +40,7 @@ The traditional Tic-Tac-Toe game often becomes predictable and boring, as the pl
 5. The game ends when either player wins or there is a draw.
 
 ## Link to the Game
-Here is the link to play Special X&O: <a href="https://walidbnslimane.github.io/Tic-Tae-Toe/" target="_blank">Play Special X&O</a>
+Here is the link to play Special X&O: <a href="https://walidbnslimane.github.io/Special-Tic-Tae-Toe/" target="_blank">Play Special X&O</a>
 
 ### Project Structure
 ```plaintext
